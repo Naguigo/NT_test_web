@@ -32,10 +32,6 @@ NT_test_web/
 ├── README.md # Este arquivo
 └── output/ # Evidências da execução (screenshot, vídeo, trace)
 
-yaml
-Copiar código
-
----
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -52,20 +48,20 @@ Copiar código
    ```bash
    git clone https://github.com/Naguigo/NT_test_web.git
    cd NT_test_web
-Instale as dependências
 
-bash
-Copiar código
+
+2. Instale as dependências
+
 pip install -r requirements.txt
-Inicialize os drivers do Browser Library / Playwright
 
-bash
-Copiar código
+
+3. Inicialize os drivers do Browser Library / Playwrigh
+
 rfbrowser init
-Execute os testes
 
-bash
-Copiar código
+
+4. Execute os testes
+
 robot tests/
 Arquivos de saída (relatórios, vídeos, screenshots, trace) serão gerados automaticamente na pasta output/.
 

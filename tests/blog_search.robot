@@ -5,7 +5,7 @@ Suite Setup    Open Browser To Blog
 Suite Teardown    Close Browser
 
 *** Variables ***
-${HEADLESS}    False
+${HEADLESS}    True
 &{VIDEO}       dir=videos
 
 *** Keywords ***

@@ -1,0 +1,87 @@
+{"level":30,"time":"2025-11-29T21:00:16.208Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Listening on 127.0.0.1:56153"}
+{"level":30,"time":"2025-11-29T21:00:17.254Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-11-29T21:00:17.706Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Adding browser to stack: chromium, version: 143.0.7499.4"}
+{"level":30,"time":"2025-11-29T21:00:17.706Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-11-29T21:00:17.706Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-11-29T21:00:17.710Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-11-29T21:00:17.710Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-11-29T21:00:17.710Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@f4a0eeb536444ad9b098bd56881351e2\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=713e473f-ebcb-4227-9113-02bcd46d16c7\"}"}
+{"level":30,"time":"2025-11-29T21:00:17.711Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Trace file: "}
+{"level":30,"time":"2025-11-29T21:00:17.719Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Setting default timeout for context context=56808bcd-d285-404f-b268-4505bf0dd810 to 10000"}
+{"level":30,"time":"2025-11-29T21:00:17.719Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Changed active context: context=56808bcd-d285-404f-b268-4505bf0dd810"}
+{"level":30,"time":"2025-11-29T21:00:17.719Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method newContext"}
+{"level":30,"time":"2025-11-29T21:00:17.723Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-11-29T21:00:17.723Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@f4a0eeb536444ad9b098bd56881351e2\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=56808bcd-d285-404f-b268-4505bf0dd810\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@d1c432dafa954816acd45e8b800372ac\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=713e473f-ebcb-4227-9113-02bcd46d16c7\"}"}
+{"level":30,"time":"2025-11-29T21:00:17.978Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-11-29T21:00:17.978Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Changed active page"}
+{"level":30,"time":"2025-11-29T21:00:20.897Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-11-29T21:00:20.903Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-29T21:00:20.906Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-29T21:00:20.910Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-29T21:00:20.910Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Strict mode is enabled, find Locator with css=.ast-header-search in page."}
+{"level":30,"time":"2025-11-29T21:00:20.961Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method click"}
+{"level":30,"time":"2025-11-29T21:00:20.964Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-11-29T21:00:20.964Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Strict mode is enabled, find Locator with input[type=\"search\"] in page."}
+{"level":30,"time":"2025-11-29T21:00:20.992Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-11-29T21:00:20.995Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-29T21:00:20.995Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Strict mode is enabled, find Locator with input[type=\"search\"] in page."}
+{"level":30,"time":"2025-11-29T21:00:21.002Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-29T21:00:21.005Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method press"}
+{"level":30,"time":"2025-11-29T21:00:21.005Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Strict mode is enabled, find Locator with input[type=\"search\"] in page."}
+{"level":30,"time":"2025-11-29T21:00:21.165Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method press"}
+{"level":30,"time":"2025-11-29T21:00:21.171Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-11-29T21:00:21.171Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"timeout: 10000 state: networkidle"}
+{"level":30,"time":"2025-11-29T21:00:22.038Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-11-29T21:00:22.045Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-11-29T21:00:22.045Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Strict mode is disabled, return Locator: css=article in page."}
+{"level":30,"time":"2025-11-29T21:00:22.062Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-11-29T21:00:22.067Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-11-29T21:00:22.067Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","Take screenshot with options: ":{"path":"/Users/nathanguilherme/Documents/NT/NT_test_web/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-11-29T21:00:22.145Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-11-29T21:00:22.150Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-29T21:00:22.151Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-29T21:00:22.153Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-29T21:00:22.154Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-29T21:00:22.156Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-29T21:00:22.156Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Strict mode is enabled, find Locator with css=.ast-header-search in page."}
+{"level":30,"time":"2025-11-29T21:00:22.199Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method click"}
+{"level":30,"time":"2025-11-29T21:00:22.201Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-11-29T21:00:22.201Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Strict mode is enabled, find Locator with input[type=\"search\"] in page."}
+{"level":30,"time":"2025-11-29T21:00:22.227Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-11-29T21:00:22.229Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-29T21:00:22.229Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Strict mode is enabled, find Locator with input[type=\"search\"] in page."}
+{"level":30,"time":"2025-11-29T21:00:22.233Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-29T21:00:22.235Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method press"}
+{"level":30,"time":"2025-11-29T21:00:22.235Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Strict mode is enabled, find Locator with input[type=\"search\"] in page."}
+{"level":30,"time":"2025-11-29T21:00:22.325Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method press"}
+{"level":30,"time":"2025-11-29T21:00:22.329Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-11-29T21:00:22.329Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"timeout: 10000 state: networkidle"}
+{"level":30,"time":"2025-11-29T21:00:23.131Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2025-11-29T21:00:23.137Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-11-29T21:00:23.137Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(text(),\"Lamentamos, mas nada foi encontrado para sua pesquisa, tente novamente com outras palavras.\")] in page."}
+{"level":30,"time":"2025-11-29T21:00:23.151Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-11-29T21:00:23.155Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-11-29T21:00:23.155Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","Take screenshot with options: ":{"path":"/Users/nathanguilherme/Documents/NT/NT_test_web/browser/screenshot/robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-11-29T21:00:23.207Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-11-29T21:00:23.210Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-29T21:00:23.210Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-29T21:00:23.212Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-11-29T21:00:23.221Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Removed page=15d731d8-4456-4d86-8234-bb2e8adb9a8d from context=56808bcd-d285-404f-b268-4505bf0dd810 page stack"}
+{"level":30,"time":"2025-11-29T21:00:23.336Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/nathanguilherme/Documents/NT/NT_test_web/venv/lib/python3.13/site-packages/Browser/wrapper/index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (/Users/nathanguilherme/Documents/NT/NT_test_web/venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13622:59)
+    at PlaywrightServer.setTimeout (/Users/nathanguilherme/Documents/NT/NT_test_web/venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13873:57)
+    at Object.onReceiveHalfClose (/Users/nathanguilherme/Documents/NT/NT_test_web/venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/nathanguilherme/Documents/NT/NT_test_web/venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/nathanguilherme/Documents/NT/NT_test_web/venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/nathanguilherme/Documents/NT/NT_test_web/venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-11-29T21:00:23.344Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-29T21:00:23.344Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-29T21:00:23.377Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-11-29T21:00:23.377Z","pid":82841,"hostname":"MacBook-Air-de-Nathan.local","msg":"End of node method closeAllBrowsers"}

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.4 on darwin)" generated="2025-11-29T18:00:15.657452" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.13.4 on darwin)" generated="2025-11-29T18:29:23.766295" rpa="false" schemaversion="5">
 <suite id="s1" name="Tests" source="/Users/nathanguilherme/Documents/NT/NT_test_web/tests">
 <suite id="s1-s1" name="Blog Search" source="/Users/nathanguilherme/Documents/NT/NT_test_web/tests/blog_search.robot">
 <kw name="Open Browser To Blog" type="SETUP">
 <kw name="New Browser" owner="Browser">
-<msg time="2025-11-29T18:00:15.782395" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/nathanguilherme/Documents/NT/NT_test_web/browser/traces/temp/52a095f7-2d8c-4ca9-ba36-f5227107f2ea"}</msg>
-<msg time="2025-11-29T18:00:15.804034" level="INFO">Starting Browser process /Users/nathanguilherme/Documents/NT/NT_test_web/venv/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:56153</msg>
-<msg time="2025-11-29T18:00:17.707522" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/nathanguilherme/Documents/NT/NT_test_web/browser/traces/temp/52a095f7-2d8c-4ca9-ba36-f5227107f2ea"}</msg>
+<msg time="2025-11-29T18:29:23.894561" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/nathanguilherme/Documents/NT/NT_test_web/browser/traces/temp/6305b590-cc8b-4442-9da7-3d80426f13fa"}</msg>
+<msg time="2025-11-29T18:29:23.917404" level="INFO">Starting Browser process /Users/nathanguilherme/Documents/NT/NT_test_web/venv/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:63446</msg>
+<msg time="2025-11-29T18:29:26.069115" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/nathanguilherme/Documents/NT/NT_test_web/browser/traces/temp/6305b590-cc8b-4442-9da7-3d80426f13fa"}</msg>
 <arg>chromium</arg>
 <arg>headless=${HEADLESS}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-11-29T18:00:15.781913" elapsed="1.925898"/>
+<status status="PASS" start="2025-11-29T18:29:23.894085" elapsed="2.175306"/>
 </kw>
 <kw name="New Context" owner="Browser">
-<msg time="2025-11-29T18:00:17.709359" level="INFO">{
+<msg time="2025-11-29T18:29:26.071118" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": false,
   "forcedColors": "none",
@@ -29,56 +29,69 @@
     "height": 720
   }
 }</msg>
-<msg time="2025-11-29T18:00:17.720353" level="INFO">Successfully created context. </msg>
-<msg time="2025-11-29T18:00:17.720430" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2025-11-29T18:29:26.092208" level="INFO">Successfully created context. </msg>
+<msg time="2025-11-29T18:29:26.092283" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2025-11-29T18:00:17.708152" elapsed="0.012356"/>
+<status status="PASS" start="2025-11-29T18:29:26.069719" elapsed="0.022635"/>
 </kw>
 <kw name="Open Home Page" owner="BlogHomePage">
 <kw name="New Page" owner="Browser">
-<msg time="2025-11-29T18:00:20.899803" level="INFO">Successfully initialized new page object and opened url: https://blog.agibank.com.br</msg>
+<msg time="2025-11-29T18:29:26.882277" level="INFO">Successfully initialized new page object and opened url: https://blog.agibank.com.br</msg>
 <arg>${URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-11-29T18:00:17.721231" elapsed="3.179069"/>
+<status status="PASS" start="2025-11-29T18:29:26.092860" elapsed="0.789866"/>
 </kw>
-<status status="PASS" start="2025-11-29T18:00:17.720754" elapsed="3.179838"/>
+<status status="PASS" start="2025-11-29T18:29:26.092589" elapsed="0.790365"/>
 </kw>
-<status status="PASS" start="2025-11-29T18:00:15.781475" elapsed="5.119216"/>
+<status status="PASS" start="2025-11-29T18:29:23.893643" elapsed="2.989405"/>
 </kw>
-<test id="s1-s1-t1" name="Buscar termo existente retorna resultados" line="18">
+<test id="s1-s1-t1" name="Buscar termo existente retorna resultados" line="17">
 <kw name="Search For Term" owner="BlogHomePage">
 <kw name="Open Search" owner="BlogHomePage">
 <kw name="Click" owner="Browser">
-<msg time="2025-11-29T18:00:20.909313" level="INFO">Clicks the element 'css=.ast-header-search'.</msg>
+<msg time="2025-11-29T18:29:26.897767" level="INFO">Clicks the element 'css=.ast-header-search'.</msg>
 <arg>${SEARCH_ICON}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-11-29T18:00:20.908867" elapsed="0.053656"/>
+<status status="PASS" start="2025-11-29T18:29:26.897366" elapsed="0.121341"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-11-29T18:00:20.993319" level="INFO">Waited for Element with selector input[type="search"] at state visible</msg>
+<msg time="2025-11-29T18:29:37.309467" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2025-11-29T18:29:37.309659" level="INFO">See also file:///Users/nathanguilherme/Documents/NT/NT_test_web/playwright-log.txt for additional details.</msg>
+<msg time="2025-11-29T18:29:37.310107" level="FAIL">TimeoutError: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[type="search"]') to be visible
+    24 × locator resolved to hidden &lt;input value="" name="s" type="search" tabindex="-1" id="search-field" class="search-field" placeholder="Search..."/&gt;
+</msg>
 <arg>${SEARCH_INPUT}</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-11-29T18:00:20.962688" elapsed="0.030768"/>
+<status status="FAIL" start="2025-11-29T18:29:27.018908" elapsed="10.296660">TimeoutError: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[type="search"]') to be visible
+    24 × locator resolved to hidden &lt;input value="" name="s" type="search" tabindex="-1" id="search-field" class="search-field" placeholder="Search..."/&gt;
+</status>
 </kw>
-<status status="PASS" start="2025-11-29T18:00:20.908590" elapsed="0.084960"/>
+<status status="FAIL" start="2025-11-29T18:29:26.897173" elapsed="10.418585">TimeoutError: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[type="search"]') to be visible
+    24 × locator resolved to hidden &lt;input value="" name="s" type="search" tabindex="-1" id="search-field" class="search-field" placeholder="Search..."/&gt;
+</status>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-11-29T18:00:20.994108" level="INFO">Fills the text 'cartão' in the given field.</msg>
 <arg>${SEARCH_INPUT}</arg>
 <arg>${term}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-11-29T18:00:20.993661" elapsed="0.009870"/>
+<status status="NOT RUN" start="2025-11-29T18:29:37.315894" elapsed="0.000072"/>
 </kw>
 <kw name="Press Keys" owner="Browser">
 <arg>${SEARCH_INPUT}</arg>
@@ -86,73 +99,77 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given key combination into element found by ``selector``.</doc>
-<status status="PASS" start="2025-11-29T18:00:21.003692" elapsed="0.164331"/>
+<status status="NOT RUN" start="2025-11-29T18:29:37.316050" elapsed="0.000035"/>
 </kw>
 <kw name="Wait For Load State" owner="Browser">
-<msg time="2025-11-29T18:00:21.168906" level="INFO">Waiting page load to state to receive networkidle in 10000.0</msg>
-<msg time="2025-11-29T18:00:22.040714" level="INFO">Load state networkidle got in 10000</msg>
 <arg>networkidle</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits that the page reaches the required load state.</doc>
-<status status="PASS" start="2025-11-29T18:00:21.168288" elapsed="0.872845"/>
+<status status="NOT RUN" start="2025-11-29T18:29:37.316149" elapsed="0.000031"/>
 </kw>
 <arg>cartão</arg>
-<status status="PASS" start="2025-11-29T18:00:20.908093" elapsed="1.133267"/>
+<status status="FAIL" start="2025-11-29T18:29:26.896673" elapsed="10.419575">TimeoutError: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[type="search"]') to be visible
+    24 × locator resolved to hidden &lt;input value="" name="s" type="search" tabindex="-1" id="search-field" class="search-field" placeholder="Search..."/&gt;
+</status>
 </kw>
 <kw name="Get Element Count" owner="Browser">
-<msg time="2025-11-29T18:00:22.063248" level="INFO">${count} = 9</msg>
 <var>${count}</var>
 <arg>css=article</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns the count of elements found with ``selector``.</doc>
-<status status="PASS" start="2025-11-29T18:00:22.041983" elapsed="0.021357"/>
+<status status="NOT RUN" start="2025-11-29T18:29:37.316401" elapsed="0.000041"/>
 </kw>
 <kw name="Should Be True" owner="BuiltIn">
 <arg>${count} &gt; 0</arg>
 <doc>Fails if the given condition is not true.</doc>
-<status status="PASS" start="2025-11-29T18:00:22.063647" elapsed="0.000568"/>
+<status status="NOT RUN" start="2025-11-29T18:29:37.316563" elapsed="0.000032"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser">
-<msg time="2025-11-29T18:00:22.146893" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2025-11-29T18:00:22.064548" elapsed="0.082489"/>
+<status status="NOT RUN" start="2025-11-29T18:29:37.316674" elapsed="0.000031"/>
 </kw>
-<status status="PASS" start="2025-11-29T18:00:20.900928" elapsed="1.246337"/>
+<status status="FAIL" start="2025-11-29T18:29:26.883171" elapsed="10.433676">TimeoutError: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[type="search"]') to be visible
+    24 × locator resolved to hidden &lt;input value="" name="s" type="search" tabindex="-1" id="search-field" class="search-field" placeholder="Search..."/&gt;
+</status>
 </test>
-<test id="s1-s1-t2" name="Buscar termo inexistente exibe mensagem" line="24">
+<test id="s1-s1-t2" name="Buscar termo inexistente exibe mensagem" line="23">
 <kw name="Search For Term" owner="BlogHomePage">
 <kw name="Open Search" owner="BlogHomePage">
 <kw name="Click" owner="Browser">
-<msg time="2025-11-29T18:00:22.155495" level="INFO">Clicks the element 'css=.ast-header-search'.</msg>
+<msg time="2025-11-29T18:29:37.346673" level="INFO">Clicks the element 'css=.ast-header-search'.</msg>
 <arg>${SEARCH_ICON}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-11-29T18:00:22.155146" elapsed="0.044761"/>
+<status status="PASS" start="2025-11-29T18:29:37.345492" elapsed="0.157373"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-11-29T18:00:22.227563" level="INFO">Waited for Element with selector input[type="search"] at state visible</msg>
+<msg time="2025-11-29T18:29:37.534806" level="INFO">Waited for Element with selector input[type="search"] at state visible</msg>
 <arg>${SEARCH_INPUT}</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-11-29T18:00:22.200072" elapsed="0.027624"/>
+<status status="PASS" start="2025-11-29T18:29:37.503049" elapsed="0.031990"/>
 </kw>
-<status status="PASS" start="2025-11-29T18:00:22.154974" elapsed="0.072813"/>
+<status status="PASS" start="2025-11-29T18:29:37.345011" elapsed="0.190160"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-11-29T18:00:22.228291" level="INFO">Fills the text 'asdasdqweqwe' in the given field.</msg>
+<msg time="2025-11-29T18:29:37.536062" level="INFO">Fills the text 'asdasdqweqwe' in the given field.</msg>
 <arg>${SEARCH_INPUT}</arg>
 <arg>${term}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-11-29T18:00:22.227890" elapsed="0.006324"/>
+<status status="PASS" start="2025-11-29T18:29:37.535320" elapsed="0.023877"/>
 </kw>
 <kw name="Press Keys" owner="Browser">
 <arg>${SEARCH_INPUT}</arg>
@@ -160,57 +177,57 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given key combination into element found by ``selector``.</doc>
-<status status="PASS" start="2025-11-29T18:00:22.234448" elapsed="0.092215"/>
+<status status="PASS" start="2025-11-29T18:29:37.559394" elapsed="0.189942"/>
 </kw>
 <kw name="Wait For Load State" owner="Browser">
-<msg time="2025-11-29T18:00:22.328037" level="INFO">Waiting page load to state to receive networkidle in 10000.0</msg>
-<msg time="2025-11-29T18:00:23.133372" level="INFO">Load state networkidle got in 10000</msg>
+<msg time="2025-11-29T18:29:37.751527" level="INFO">Waiting page load to state to receive networkidle in 10000.0</msg>
+<msg time="2025-11-29T18:29:38.902201" level="INFO">Load state networkidle got in 10000</msg>
 <arg>networkidle</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits that the page reaches the required load state.</doc>
-<status status="PASS" start="2025-11-29T18:00:22.327078" elapsed="0.806685"/>
+<status status="PASS" start="2025-11-29T18:29:37.749829" elapsed="1.152578"/>
 </kw>
 <arg>asdasdqweqwe</arg>
-<status status="PASS" start="2025-11-29T18:00:22.154648" elapsed="0.979356"/>
+<status status="PASS" start="2025-11-29T18:29:37.344280" elapsed="1.558267"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-11-29T18:00:23.152566" level="INFO">Waited for Element with selector xpath=//*[contains(text(),"Lamentamos, mas nada foi encontrado para sua pesquisa, tente novamente com outras palavras.")] at state visible</msg>
+<msg time="2025-11-29T18:29:38.928404" level="INFO">Waited for Element with selector xpath=//*[contains(text(),"Lamentamos, mas nada foi encontrado para sua pesquisa, tente novamente com outras palavras.")] at state visible</msg>
 <arg>xpath=//*[contains(text(),"Lamentamos, mas nada foi encontrado para sua pesquisa, tente novamente com outras palavras.")]</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-11-29T18:00:23.134415" elapsed="0.018371"/>
+<status status="PASS" start="2025-11-29T18:29:38.902789" elapsed="0.025748"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser">
-<msg time="2025-11-29T18:00:23.208361" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-2.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-2.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2025-11-29T18:29:39.008841" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2025-11-29T18:00:23.153097" elapsed="0.055377"/>
+<status status="PASS" start="2025-11-29T18:29:38.928741" elapsed="0.082127"/>
 </kw>
-<status status="PASS" start="2025-11-29T18:00:22.152017" elapsed="1.056612"/>
+<status status="PASS" start="2025-11-29T18:29:37.326751" elapsed="1.684456"/>
 </test>
 <kw name="Close Browser" owner="Browser" type="TEARDOWN">
-<msg time="2025-11-29T18:00:23.337868" level="INFO">Closed browser</msg>
+<msg time="2025-11-29T18:29:39.181901" level="INFO">Closed browser</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-11-29T18:00:23.211611" elapsed="0.126473"/>
+<status status="PASS" start="2025-11-29T18:29:39.018507" elapsed="0.163632"/>
 </kw>
-<status status="PASS" start="2025-11-29T18:00:15.674532" elapsed="7.663655"/>
+<status status="FAIL" start="2025-11-29T18:29:23.783479" elapsed="15.398756"/>
 </suite>
-<status status="PASS" start="2025-11-29T18:00:15.658330" elapsed="7.687171"/>
+<status status="FAIL" start="2025-11-29T18:29:23.767158" elapsed="15.423253"/>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="0" skip="0">All Tests</stat>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Tests" id="s1" pass="2" fail="0" skip="0">Tests</stat>
-<stat name="Blog Search" id="s1-s1" pass="2" fail="0" skip="0">Tests.Blog Search</stat>
+<stat name="Tests" id="s1" pass="1" fail="1" skip="0">Tests</stat>
+<stat name="Blog Search" id="s1-s1" pass="1" fail="1" skip="0">Tests.Blog Search</stat>
 </suite>
 </statistics>
 <errors>

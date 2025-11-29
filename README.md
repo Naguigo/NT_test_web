@@ -75,8 +75,6 @@ O projeto está configurado para gravar:
 
 📷 Screenshots
 
-🎥 Vídeos da execução
-
 🧾 Trace completo do Playwright
 
 Essas evidências ajudam na análise de falhas e no debug de testes.
@@ -92,7 +90,7 @@ Instalação de dependências + inicialização do Browser
 
 Execução dos testes Robot
 
-Upload de artefatos (relatórios, vídeos, trace)
+Upload de artefatos (relatórios, trace)
 
 Arquivo de pipeline: .github/workflows/tests.yml.
 

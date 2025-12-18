@@ -103,4 +103,4 @@ Garantir que testes sejam re-executáveis: limpar cache, estados, usar contextos
 
 Manter evidências de falha para facilitar debug (screenshots, vídeos, trace).
 
-Versionar dependências e documentar ambiente mínimo (versão Python, bibliotecas necessárias).
+Versionar dependências e documentar ambiente mínimo (versão Python, bibliotecas necessárias)..

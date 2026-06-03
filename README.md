@@ -1,4 +1,4 @@
-# NT_test_web — Automação de Busca do Blog Agibank
+# NT_test_web — Automação de Busca do Blog Agibank .
 
 Automação de testes de aceitação/end-to-end para o blog do Agibank utilizando **Robot Framework + Browser (Playwright)**.  
 Este repositório usa Page Objects, captura de evidências (screenshots, vídeo, trace) e está configurado com pipeline CI via GitHub Actions.  
